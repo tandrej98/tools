@@ -8,5 +8,5 @@ A simple script that checks the first level of subfolders in the provided path. 
 git
 
 ### Arguments
-positional: path to the project directory
+positional: paths to the project directories
 ___
