@@ -8,5 +8,12 @@ A simple script that checks the first level of subfolders in the provided path. 
 git
 
 ### Arguments
-positional: paths to the project directories
+* -v | --verbose: turn gradle/maven output on
+* --disable-git: disable git garbage collector
+* positional: paths to the project directories
+
+### Example
+```
+project_cleaner.sh -v ~/my_projects
+```
 ___
