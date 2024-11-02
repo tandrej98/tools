@@ -17,3 +17,7 @@ git
 project_cleaner.sh -v ~/my_projects
 ```
 ___
+
+## Minecraft bedrock server (Nukkit) deployment on a Raspberry Pi
+
+Has own [readme](./rpi_minecraft/README.md)

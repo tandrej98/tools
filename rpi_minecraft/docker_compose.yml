@@ -1,0 +1,13 @@
+version: '3'
+services:
+  nukkit:
+    build: ./
+    ports:
+      - "19132:19132"
+      - "19132:19132/udp"
+    volumes:
+      - ${NUKKIT_DATA_DIR:?error}:/data:rw
+    container_name: nukkit
+    restart: unless-stopped
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
